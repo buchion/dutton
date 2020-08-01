@@ -1,7 +1,8 @@
 .tab {
+    overflow-x: auto;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+    /* flex-flow: row wrap;
+    justify-content: flex-start; */
     align-items: center;
     padding: 0 5%;
     margin-top: 7vh;

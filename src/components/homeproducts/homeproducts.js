@@ -9,8 +9,9 @@ export class HomeProducts extends Component {
 
         return (
             <div>
+
                 <div className='section-title'><h2>DAILY DEALS</h2></div>
-                <div className='tabs'> <ul className='tab'> <li>GREEN TEA</li><li>BLACK TEA</li><li>COFFEE</li><li>SLIMING TEA</li></ul></div>
+                <div className='tabs'> <ul className='tab'> <li>GREEN&nbsp;TEA</li><li>BLACK&nbsp;TEA</li><li>COFFEE</li><li>SLIMING&nbsp;TEA</li></ul></div>
                 <div className='shopcontent'>
                     <div className='shopItems'>
                         <img src={teaimg} alt='teaimg' />
