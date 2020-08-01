@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #cadacd;
+    justify-content: space-evenly;
+    padding: 5vh 5vw 5vh 5vw;
+}
+
+footer li {
+list-style: none;
+margin-top: 2vh;
+}
+
+.nav {
+    margin-top: 4vh;
+    width: 30vw;
+    margin: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Alogo {
+    font-weight: 700;
+    font-size: 30px;
+} 
+
+.stub {
+    margin-right: 8vw;
+}
+
+.subscribeInput {
+    height: 4vh;
+    width: 13rem;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #1d5a1d;
+}
