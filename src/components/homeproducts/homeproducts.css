@@ -9,6 +9,8 @@
     /* background-color: #f5f5f5; */
 }
 
+.tab::-webkit-scrollbar { display: none;}
+
 .tabs {
 list-style: none;
 
