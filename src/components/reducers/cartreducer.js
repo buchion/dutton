@@ -1,4 +1,4 @@
-import Item1 from '../../assets/teaimg/body_system_cleanser.jpg'
+
 import antidiabetes from '../../assets/teaimg/anti_diabetes.jpg'
 import BPNormalizer from '../../assets/teaimg/BP_Normalizer.jpg'
 import body_system_cleanser from '../../assets/teaimg/body_system_cleanser.jpg'
