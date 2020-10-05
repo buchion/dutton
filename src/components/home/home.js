@@ -50,7 +50,7 @@ export class Home extends Component {
                         <p>Dutton tea guarantees all the added health benefits of tea. Boost your immune system and keeps you healthy.</p>
                     </div>
                 </div>
-                < HomeProducts />
+
                 <div className='seconddiv'>
                     <h1>A CUP OF DUTTON A DAY</h1>
                     <div className='secondFlex'>
@@ -62,6 +62,7 @@ export class Home extends Component {
                         </div>
                     </div>
                 </div>
+                < HomeProducts />
             </div>
         );
     }
