@@ -52,7 +52,7 @@ export class Home extends Component {
                 </div>
                 < HomeProducts />
                 <div className='seconddiv'>
-                    <h1>A CUP OF DUTTON A DAY KEEPS THE DOCTOR AWAY</h1>
+                    <h1>A CUP OF DUTTON A DAY</h1>
                     <div className='secondFlex'>
                         <img src={teaimg} alt='teaimg' />
                         <div className='rightdiv'>
