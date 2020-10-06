@@ -6,7 +6,6 @@ export class Products extends Component {
         return (
             <div>
                 < HomeProducts />
-
             </div>
         )
     }

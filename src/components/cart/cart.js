@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Link } from 'react-router-dom'
-import { removeItem, addQuantity, subtractQuantity } from './actions/cartActions'
-import Recipe from './Recipe'
+import { removeItem, addQuantity, subtractQuantity } from '../actions/cartActions'
+import Receipt from './receipt'
+import './cart.css'
 class Cart extends Component {
 
     //to remove the item completely
@@ -24,23 +25,26 @@ class Cart extends Component {
                 this.props.items.map(item => {
                     return (
 
-                        <li className="collection-item avatar" key={item.id}>
+                        <li className="collection-item" key={item.id}>
                             <div className="item-img">
                                 <img src={item.img} alt={item.img} className="" />
                             </div>
 
                             <div className="item-desc">
-                                <span className="title">{item.title}</span>
-                                <p>{item.desc}</p>
+                                <span className="tit">{item.title}</span>
+                                <p>{item.desc}</p><br></br>
                                 <p><b>Price: ₦ {item.price}</b></p>
                                 <p>
                                     <b>Quantity: {item.quantity}</b>
                                 </p>
                                 <div className="add-remove">
-                                    <Link to="/cart"><i className="material-icons" onClick={() => { this.handleAddQuantity(item.id) }}>arrow_drop_up</i></Link>
-                                    <Link to="/cart"><i className="material-icons" onClick={() => { this.handleSubtractQuantity(item.id) }}>arrow_drop_down</i></Link>
+
+                                    <Link to="/cart"><button onClick={() => { this.handleAddQuantity(item.id) }}>+</button></Link>
+                                    <Link to="/cart"><button onClick={() => { this.handleSubtractQuantity(item.id) }}>-</button></Link>
                                 </div>
-                                <button className="waves-effect waves-light btn pink remove" onClick={() => { this.handleRemove(item.id) }}>Remove</button>
+                                <div className="checkout">
+                                    <button className="remove" onClick={() => { this.handleRemove(item.id) }}>Remove</button>
+                                </div>
                             </div>
 
                         </li>
@@ -53,14 +57,14 @@ class Cart extends Component {
                 <p>Nothing.</p>
             )
         return (
-            <div className="container">
-                <div className="cart">
+            <div className="shiftsmall">
+                <div >
                     <h5>You have ordered:</h5>
                     <ul className="collection">
                         {addedItems}
                     </ul>
                 </div>
-                <Recipe />
+                <Receipt />
             </div>
         )
     }
@@ -81,3 +85,4 @@ const mapDispatchToProps = (dispatch) => {
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(Cart)
+

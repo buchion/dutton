@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Product from '../products/Products'
 import Contact from '../contact/Contact'
 import Home from '../home/home'
+import Cart from '../cart/cart'
 // import Mission from '../mission/'
 import './Navbar.css'
 
@@ -21,7 +22,8 @@ export class Navbar extends Component {
                             <li><Link to={'/About'}>About Us</Link></li>
                             <li><Link to={'/Contact'}>Contact</Link></li>
                             <li><Link to={'/Mission'}>Mission</Link></li>
-                            <div class="button" id="button-2">
+                            <li><Link to={'/Cart'}>Cart</Link></li>
+                            <div className="button" id="button-2">
                                 <div id="slide"></div>
                                 <b>Order Now</b>
                             </div>
@@ -37,6 +39,7 @@ export class Navbar extends Component {
                     <Route path='/Contact' component={Contact} />
                     {/* <Route path='/About' component={About} /> */}
                     <Route path='/Product' component={Product} />
+                    <Route path='/Cart' component={Cart} />
                     {/* <Route path='/Mission' component={Mission} /> */}
                 </Switch>
             </Router>

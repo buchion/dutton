@@ -1,0 +1,13 @@
+.outermostdiv {
+    margin-left: 200px ;
+}
+
+input {
+width: 500px;
+height: 30px;
+}
+
+.mapdiv {
+    height: 250px;
+    background-color: lightblue;
+}
