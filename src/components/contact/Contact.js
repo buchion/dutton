@@ -29,6 +29,8 @@ export class Contact extends Component {
                             <br></br><br></br>
                             <p>Message</p>
                             <textarea rows="4" required type='textarea' placeholder='What will you like to know about Us'></textarea>
+                            <div className="send">Send</div>
+
                         </div>
                         <div className='rightblue'>
                             <h3>Contact Information</h3>

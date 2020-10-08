@@ -1,6 +1,19 @@
 
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+.send {
+margin: 0 !important;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, .3);
+    color: #fff;
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    background: #0a7919;
+}
+
 .outermostdiv {
     /* margin-left: 200px ; */
     min-height: 700px;
@@ -26,6 +39,7 @@ box-sizing: border-box;
 
 .mapdiv {
     height: 46vh;
+    background-color: #f5f5f5;
     padding-left: 10%;
     background: url('../../assets/contactmap.png');
     background-position: top;
