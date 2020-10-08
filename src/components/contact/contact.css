@@ -1,13 +1,82 @@
+
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .outermostdiv {
-    margin-left: 200px ;
+    /* margin-left: 200px ; */
+    min-height: 700px;
+    width: 100%;
+    background-color: #09881e;
 }
 
-input {
-width: 500px;
-height: 30px;
+textarea, input {
+/* width: 500px;
+height: 30px; */
+box-sizing: border-box;
+		width: 100%;
+		padding: 12px 10px 8px;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+		border-bottom: 1px solid #DDD;
+		font-size: 100%;
+        outline: none;
+        background-color: #f5f5f5;
+		cursor: text;
 }
 
 .mapdiv {
-    height: 250px;
-    background-color: lightblue;
+    height: 46vh;
+    padding-left: 10%;
+    background: url('../../assets/contactmap.png');
+    background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+
 }
+
+.rightblue {
+    background-color: #309630;
+    padding: 50px;
+    color: #fff;
+    width: 30%;
+}
+
+.leftwhite {
+background-color: #f5f5f5;
+color: #23a723;
+padding: 50px;
+width: 70%;
+}
+
+.middle {
+display: flex;
+justify-content: center;
+box-shadow: 0px 10px 20px #00000030, 0 6px 6px #0000003b;
+margin: 0 10vw;
+margin-top: -20vh;
+/* 
+-moz-box-shadow:0 5px 5px #00000030;
+     -webkit-box-shadow: 0 5px 5px #00000030;
+     box-shadow: 0 9px 9px #00000030; */
+}
+
+.grid-container a, .grid-container i {
+color: #fff; }
+
+.grid-container {
+    background-color: #309630;
+    padding: 10px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 12px 25px 230px;
+  }
+
+  .grid-item {
+      margin: 15px;
+  }
+
+  .btmlink {
+    font-size: xx-large;
+    color: #092b09;
+    margin-right: 40px;
+  }

@@ -1,12 +1,14 @@
 footer {
+    color: #f3f3f3;
     display: flex;
     flex-flow: row wrap;
-    background-color: #cadacd;
+    background-color: #09881e;
     justify-content: space-evenly;
     padding: 5vh 5vw 5vh 5vw;
 }
 
 footer li {
+    color: #f3f3f3;
 list-style: none;
 margin-top: 2vh;
 }
@@ -36,3 +38,7 @@ margin-top: 2vh;
     background: transparent;
     border-bottom: 1px solid #1d5a1d;
 }
+
+footer ::placeholder {
+    color: #f7efef;
+  }

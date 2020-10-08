@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './homeproducts.css'
-// import './material.css'
 import { connect } from 'react-redux'
 import { addToCart } from '../actions/cartActions'
 
@@ -36,7 +35,6 @@ export class HomeProducts extends Component {
         return (
 
             <div className='entire'>
-
 
                 <div className='section-title'><h2>PRODUCTS</h2></div>
                 <div className='tabs'> <ul className='tab'> <li>GREEN&nbsp;TEA</li><li>BLACK&nbsp;TEA</li><li>COFFEE</li><li>SLIMING&nbsp;TEA</li></ul></div>

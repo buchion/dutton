@@ -46,9 +46,12 @@ export class Footer extends Component {
                     <nav className='.nav'>
                         <ul>
                             <li><b>FOLLOW US</b></li>
-                            <li>Facebook&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                            <li>Instagram</li>
-                            <li>Twitter</li>
+                            <a href="https://twitter.com/DuttonTea" target="_blank" rel="noopener noreferrer"><li>Twitter</li></a>
+                            <a href="https://twitter.com/DuttonTea" target="_blank" rel="noopener noreferrer">
+                                <li>Facebook&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                            </a>
+                            <a href="https://twitter.com/DuttonTea" target="_blank" rel="noopener noreferrer"><li>Jumia Store</li></a>
+
                         </ul>
 
                     </nav>
